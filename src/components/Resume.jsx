@@ -8,7 +8,7 @@ const Resume = () => (
         <h2>experience</h2>
         <ul className="experience-links">
           <li className="experience-link">
-            2021 - 2022
+            2019 - 2023
             <h3>information technology specialist</h3>
             <p>arca tech services</p>
             <ul>
