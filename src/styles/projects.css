@@ -16,7 +16,7 @@
 
 .project-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 40px;
   overflow: hidden;
 }

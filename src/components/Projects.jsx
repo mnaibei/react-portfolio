@@ -2,6 +2,7 @@ import weather from '../images/weatherapp.png';
 import landmarks from '../images/landmarks.png';
 import todo from '../images/todolist.png';
 import crypto from '../images/cryptotracker.png';
+import mdawida from '../images/mdawidahomestay.onrender.com_home.png';
 import '../styles/projects.css';
 
 const Projects = () => (
@@ -49,27 +50,6 @@ const Projects = () => (
       </li>
       <li>
         <div className="project-item">
-          <img src={todo} alt={todo} className="project-image" />
-          <div className="project-details">
-            <h2>Todo List Web App</h2>
-            <p>
-              The Todo List Web App is a sleek and efficient task management tool built with React.
-              It enables users to seamlessly add, edit, and remove tasks, providing a streamlined
-              interface for organizing daily to-do lists. The app leverages local storage to ensure
-              data persistence, preserving tasks even when the page is refreshed or the browser is
-              closed. With its user-friendly design and essential features, the Todo List Web App
-              empowers users to stay organized, prioritize tasks, and enhance productivity.
-            </p>
-            <p>Built with: ReactJS</p>
-            <p>
-              Link to project:
-              <a href="https://todo-list-app-457c.onrender.com/" className="project-link">Todo List Web App</a>
-            </p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div className="project-item">
           <img src={crypto} alt={crypto} className="project-image" />
           <div className="project-details">
             <h2>Cryptocurrency Mobile Web App</h2>
@@ -92,6 +72,53 @@ const Projects = () => (
             <p>
               Link to project:
               <a href="https://github.com/mnaibei/react-capstone" className="project-link"> Cryptocurrency Mobile Webapp</a>
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div className="project-item">
+          <img src={todo} alt={todo} className="project-image" />
+          <div className="project-details">
+            <h2>Todo List Web App</h2>
+            <p>
+              The Todo List Web App is a sleek and efficient task management tool built with React.
+              It enables users to seamlessly add, edit, and remove tasks, providing a streamlined
+              interface for organizing daily to-do lists. The app leverages local storage to ensure
+              data persistence, preserving tasks even when the page is refreshed or the browser is
+              closed. With its user-friendly design and essential features, the Todo List Web App
+              empowers users to stay organized, prioritize tasks, and enhance productivity.
+            </p>
+            <p>Built with: ReactJS</p>
+            <p>
+              Link to project:
+              <a href="https://todo-list-app-457c.onrender.com/" className="project-link">Todo List Web App</a>
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div className="project-item">
+          <img src={mdawida} alt={mdawida} className="project-image" />
+          <div className="project-details">
+            <h2>Mdawida Homestay Web App</h2>
+            <p>
+              The Mdawida Homestay web app, built using ReactJS, offers a seamless and immersive
+              experience for individuals seeking a comfortable and authentic homestay experience.
+              With its user-friendly interface and intuitive navigation, users can easily explore
+              various accommodation options, view detailed property information, check availability,
+              and make reservations with convenience. Whether it&apos;s a cozy room, a charming
+              cottage,
+              or a spacious villa, Mdawida Homestay provides a range of accommodations to suit
+              different preferences and budgets. With its responsive design and smooth
+              functionality,
+              this web app ensures a delightful and hassle-free booking experience for travelers,
+              enabling them to create unforgettable memories during their stay at Mdawida Homestay.
+            </p>
+            <p>Built with: ReactJS</p>
+            <p>
+              Link to project:
+              <a href="https://mdawidahomestay.onrender.com/home" className="project-link">Mdawida Homestay Web App</a>
             </p>
           </div>
         </div>
