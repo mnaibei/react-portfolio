@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.navlinks {
+  display: flex;
+  gap: 10px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a.active {
+  opacity: 1;
+}
