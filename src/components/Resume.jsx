@@ -141,7 +141,7 @@ const Resume = () => (
         <h2>education</h2>
         <ul className="education-links">
           <li className="education-link">
-            2022 - 2022
+            2023 - 2023
             <h3>full-stack software engineering</h3>
             <p>microverse</p>
           </li>
