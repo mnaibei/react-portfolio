@@ -1,3 +1,9 @@
+import React from 'react';
+import {
+  FaSwift, FaReact, FaGithub, FaDesktop,
+} from 'react-icons/fa';
+import { SiRedux } from 'react-icons/si';
+
 import weather from '../images/weatherapp.png';
 import landmarks from '../images/landmarks.png';
 import todo from '../images/todolist.png';
@@ -21,11 +27,19 @@ const Projects = () => (
               humidity, wind speed, and more. The app ensures weather updates for the current
               time and up to seven days in advance.
             </p>
-            <p>Built with: SwiftUI</p>
-            <p>
-              Link to project:
-              <a href="https://github.com/mnaibei/WeatherApp" className="project-link">Weather App</a>
+            <p className="built">
+              Built with:
+              <FaSwift />
+              {' '}
+              SwiftUI
             </p>
+            <div className="project-links-container">
+              <a href="https://github.com/mnaibei/WeatherApp" className="project-link">
+                <FaGithub />
+                {' '}
+                View Code
+              </a>
+            </div>
           </div>
         </div>
       </li>
@@ -40,11 +54,19 @@ const Projects = () => (
               landmark. The app also includes a Favorites function that allows users to mark their
               preferred landmarks and apply filters accordingly.
             </p>
-            <p>Built with: SwiftUI</p>
-            <p>
-              Link to project:
-              <a href="https://github.com/mnaibei/Landmarks" className="project-link">Landmarks App</a>
+            <p className="built">
+              Built with:
+              <FaSwift />
+              {' '}
+              SwiftUI
             </p>
+            <div className="project-links-container">
+              <a href="https://github.com/mnaibei/Landmarks" className="project-link">
+                <FaGithub />
+                {' '}
+                View Code
+              </a>
+            </div>
           </div>
         </div>
       </li>
@@ -64,15 +86,28 @@ const Projects = () => (
               synchronization and allows users to track multiple cryptocurrencies
               simultaneously. The user-friendly interface provides an intuitive experience,
               making it easy to navigate through different coins and access detailed information.
-              Whether users are seasoned investors or crypto enthusiasts, this
-              Cryptocurrency Tracker mobile web app empowers them to stay informed and
-              make informed decisions based on the latest market trends and metrics.
             </p>
-            <p>Built with: ReactJS, Redux, CoinLore API</p>
-            <p>
-              Link to project:
-              <a href="https://github.com/mnaibei/react-capstone" className="project-link"> Cryptocurrency Mobile Webapp</a>
+            <p className="built">
+              Built with:
+              <FaReact />
+              {' '}
+              ReactJS,
+              <SiRedux />
+              {' '}
+              Redux
             </p>
+            <div className="project-links-container">
+              <a href="https://github.com/mnaibei/react-capstone" className="project-link">
+                <FaGithub />
+                {' '}
+                View Code
+              </a>
+              <a href="https://cryptotracker-1qgb.onrender.com" className="project-link">
+                <FaDesktop />
+                {' '}
+                Demo
+              </a>
+            </div>
           </div>
         </div>
       </li>
@@ -89,11 +124,24 @@ const Projects = () => (
               closed. With its user-friendly design and essential features, the Todo List Web App
               empowers users to stay organized, prioritize tasks, and enhance productivity.
             </p>
-            <p>Built with: ReactJS</p>
-            <p>
-              Link to project:
-              <a href="https://todo-list-app-457c.onrender.com/" className="project-link">Todo List Web App</a>
+            <p className="built">
+              Built with:
+              <FaReact />
+              {' '}
+              ReactJS
             </p>
+            <div className="project-links-container">
+              <a href="https://github.com/mnaibei/todo-list-react" className="project-link">
+                <FaGithub />
+                {' '}
+                View Code
+              </a>
+              <a href="https://todo-list-app-457c.onrender.com" className="project-link">
+                <FaDesktop />
+                {' '}
+                Demo
+              </a>
+            </div>
           </div>
         </div>
       </li>
@@ -107,19 +155,31 @@ const Projects = () => (
               experience for individuals seeking a comfortable and authentic homestay experience.
               With its user-friendly interface and intuitive navigation, users can easily explore
               various accommodation options, view detailed property information, check availability,
-              and make reservations with convenience. Whether it&apos;s a cozy room, a charming
-              cottage,
+              and make reservations with convenience. Whether its a cozy room, a charming cottage,
               or a spacious villa, Mdawida Homestay provides a range of accommodations to suit
               different preferences and budgets. With its responsive design and smooth
               functionality,
               this web app ensures a delightful and hassle-free booking experience for travelers,
               enabling them to create unforgettable memories during their stay at Mdawida Homestay.
             </p>
-            <p>Built with: ReactJS</p>
-            <p>
-              Link to project:
-              <a href="https://mdawidahomestay.onrender.com/home" className="project-link">Mdawida Homestay Web App</a>
+            <p className="built">
+              Built with:
+              <FaReact />
+              {' '}
+              ReactJS
             </p>
+            <div className="project-links-container">
+              <a href="https://github.com/mnaibei/mdawidahomestay" className="project-link">
+                <FaGithub />
+                {' '}
+                View Code
+              </a>
+              <a href="https://mdawidahomestay.onrender.com/home" className="project-link">
+                <FaDesktop />
+                {' '}
+                Demo
+              </a>
+            </div>
           </div>
         </div>
       </li>
