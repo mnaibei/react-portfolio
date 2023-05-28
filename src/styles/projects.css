@@ -54,18 +54,20 @@
 }
 
 .project-link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 10px 20px;
-  border: 2px solid #007bff;
-  border-radius: 4px;
-  background-color: #222;
+  gap: 10px;
+  border: 1px solid #027cec;
+  border-radius: 8px;
+  background-color: #333;
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease-out;
 }
 
 .project-link:hover {
-  background-color: #007bff;
+  background-color: #000;
 }
 
 .built {
