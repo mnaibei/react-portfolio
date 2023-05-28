@@ -47,23 +47,46 @@
   margin-bottom: 10px;
 }
 
+.project-links-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
 .project-link {
-  color: #007bff;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  background-color: #222;
+  color: #fff;
   text-decoration: none;
+  transition: background-color 0.3s ease-out;
 }
 
 .project-link:hover {
-  text-decoration: underline;
+  background-color: #007bff;
+}
+
+.built {
+  display: flex;
+  gap: 5px;
 }
 
 @media (max-width: 767px) {
   .project-item {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .project-image {
     margin-right: 0;
     margin-bottom: 20px;
+  }
+
+  .project-links-container {
+    display: flex;
+    justify-content: center;
   }
 }
