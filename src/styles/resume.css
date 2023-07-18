@@ -16,8 +16,6 @@
   margin-top: 40px;
   margin-bottom: 60px;
   text-transform: capitalize;
-
-  /* text-align: justify; */
 }
 
 .experience,
@@ -66,6 +64,31 @@
 .experience-link ul li,
 .education-link ul li {
   margin-bottom: 5px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.skill {
+  border: 1px solid #027cec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  min-width: 85px;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 5px 10px;
 }
 
 /* Media Queries */
