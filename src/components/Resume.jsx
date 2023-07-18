@@ -151,6 +151,24 @@ const Resume = () => (
             <p>nairobi technical training institute</p>
           </li>
         </ul>
+        <div className="skills">
+          <h2>Skills:</h2>
+          <ul className="skills-list">
+            <li className="skill">HTML</li>
+            <li className="skill">CSS</li>
+            <li className="skill">JavaScript</li>
+            <li className="skill">React</li>
+            <li className="skill">Redux</li>
+            <li className="skill">Ruby</li>
+            <li className="skill">Ruby on Rails</li>
+            <li className="skill">SQL</li>
+            <li className="skill">Git</li>
+            <li className="skill">GitHub</li>
+            <li className="skill">Bootstrap</li>
+            <li className="skill">Postgresql</li>
+            <li className="skill">Webpack</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

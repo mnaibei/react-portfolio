@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  FaSwift, FaReact, FaGithub, FaDesktop,
+  FaSwift, FaReact, FaGithub, FaDesktop, FaJs, FaInternetExplorer, FaCss3,
 } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 
@@ -9,6 +9,7 @@ import landmarks from '../images/landmarks.png';
 import todo from '../images/todolist.png';
 import crypto from '../images/cryptotracker.png';
 import mdawida from '../images/mdawidahomestay.onrender.com_home.png';
+import cinema from '../images/cinemahub.png';
 import '../styles/projects.css';
 
 const Projects = () => (
@@ -175,6 +176,46 @@ const Projects = () => (
                 View Code
               </a>
               <a href="https://mdawidahomestay.onrender.com/home" className="project-link">
+                <FaDesktop />
+                {' '}
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div className="project-item">
+          <img src={cinema} alt={cinema} className="project-image" />
+          <div className="project-details">
+            <h2>CinemaHub Web App</h2>
+            <p>
+              I developed a captivating single-page website. It uses HTML, CSS, and
+              JavaScript to fetch movie data from the OMDB API and dynamically
+              renders it. The goal was to create a seamless user experience with
+              a visually appealing, responsive design. JavaScript enables dynamic
+              data fetching and interactive features, providing a smooth browsing
+              experience without page reloads.
+            </p>
+            <p className="built">
+              Built with:
+              <FaJs />
+              {' '}
+              JavaScript,
+              <FaInternetExplorer />
+              {' '}
+              Webpack,
+              <FaCss3 />
+              {' '}
+              CSS
+            </p>
+            <div className="project-links-container">
+              <a href="https://github.com/mnaibei/cinemaHub" className="project-link">
+                <FaGithub />
+                {' '}
+                View Code
+              </a>
+              <a href="https://mnaibei.github.io/cinemaHub/dist/#home" className="project-link">
                 <FaDesktop />
                 {' '}
                 Demo
