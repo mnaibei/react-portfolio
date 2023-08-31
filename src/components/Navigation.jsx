@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../styles/navigation.css';
+import styles from '../styles/All.module.css';
 
 const Navigation = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,48 +32,41 @@ const Navigation = () => {
         </button>
 
         {isMobileMenuOpen && (
-          <ul className="mobile-navlinks">
-            <div
-              role="button"
-              onClick={closeMenu}
-              tabIndex={0}
-              onKeyDown={closeMenu}
-            >
-              <NavLink to="/" className={(activeLink) => (activeLink.isActive ? 'active-link' : '')}>
-                Home
-              </NavLink>
-            </div>
-            <div
-              role="button"
-              onClick={closeMenu}
-              tabIndex={0}
-              onKeyDown={closeMenu}
-            >
-              <NavLink to="/resume" className={(activeLink) => (activeLink.isActive ? 'active-link' : '')}>
-                Resume
-              </NavLink>
-            </div>
-            <div
-              role="button"
-              onClick={closeMenu}
-              tabIndex={0}
-              onKeyDown={closeMenu}
-            >
-              <NavLink to="/projects" className={(activeLink) => (activeLink.isActive ? 'active-link' : '')}>
-                Projects
-              </NavLink>
-            </div>
-            <div
-              role="button"
-              onClick={closeMenu}
-              tabIndex={0}
-              onKeyDown={closeMenu}
-            >
-              <NavLink to="/contact" className={(activeLink) => (activeLink.isActive ? 'active-link' : '')}>
-                Contact
-              </NavLink>
-            </div>
-          </ul>
+          <div className={styles.overlay}>
+            <nav className={styles.hamburgerNav}>
+              <button className={styles.navBtn} onClick={closeMenu} type="button">
+                <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5l-4.596-4.596L2.404.782l4.595 4.596L11.596.782Z"
+                    fill="#69707D"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </button>
+              <ul className={styles.navList}>
+                <li>
+                  <NavLink to="/" className="active-link" onClick={closeMenu}>
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/resume" className="active-link" onClick={closeMenu}>
+                    Resume
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/projects" className="active-link" onClick={closeMenu}>
+                    Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contact" className="active-link" onClick={closeMenu}>
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+            </nav>
+          </div>
         )}
       </div>
 
