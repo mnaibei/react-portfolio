@@ -1,14 +1,14 @@
 import React from 'react';
 import {
-  FaSwift, FaReact, FaGithub, FaDesktop, FaJs, FaInternetExplorer, FaCss3,
+  FaReact, FaGithub, FaDesktop, FaJs, FaInternetExplorer, FaCss3,
 } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 
-import weather from '../images/weatherapp.png';
-import landmarks from '../images/landmarks.png';
+// import weather from '../images/weatherapp.png';
+// import landmarks from '../images/landmarks.png';
 import todo from '../images/todolist.png';
-import crypto from '../images/cryptotracker.png';
-import mdawida from '../images/mdawidahomestay.onrender.com_home.png';
+import crypto from '../images/cryptotracker-desktop.png';
+import mdawida from '../images/mdawidahomestayss.png';
 import cinema from '../images/cinemahub.png';
 import '../styles/projects.css';
 
@@ -17,8 +17,8 @@ const Projects = () => (
     <h1>Projects</h1>
     <ul className="project-links">
       <li>
-        <div className="project-item animated-text animated-text">
-          <img src={weather} alt={weather} className="project-image" />
+        {/* <div className="project-item">
+          <img src={weather} alt={weather} className="project-image mobile" />
           <div className="project-details">
             <h2>Weather App</h2>
             <p>
@@ -42,11 +42,11 @@ const Projects = () => (
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </li>
       <li>
-        <div className="project-item animated-text">
-          <img src={landmarks} alt={landmarks} className="project-image" />
+        {/* <div className="project-item">
+          <img src={landmarks} alt={landmarks} className="project-image mobile" />
           <div className="project-details">
             <h2>Landmarks App</h2>
             <p>
@@ -69,10 +69,10 @@ const Projects = () => (
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </li>
       <li>
-        <div className="project-item animated-text">
+        <div className="project-item">
           <img src={crypto} alt={crypto} className="project-image" />
           <div className="project-details">
             <h2>Cryptocurrency Mobile Web App</h2>
@@ -113,7 +113,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item animated-text">
+        <div className="project-item">
           <img src={todo} alt={todo} className="project-image" />
           <div className="project-details">
             <h2>Todo List Web App</h2>
@@ -147,7 +147,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item animated-text">
+        <div className="project-item">
           <img src={mdawida} alt={mdawida} className="project-image" />
           <div className="project-details">
             <h2>Mdawida Homestay Web App</h2>
@@ -185,7 +185,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item animated-text">
+        <div className="project-item">
           <img src={cinema} alt={cinema} className="project-image" />
           <div className="project-details">
             <h2>CinemaHub Web App</h2>
