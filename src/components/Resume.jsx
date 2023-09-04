@@ -154,19 +154,28 @@ const Resume = () => (
         <div className="skills">
           <h2>Skills:</h2>
           <ul className="skills-list">
-            <li className="skill">HTML</li>
-            <li className="skill">CSS</li>
-            <li className="skill">JavaScript</li>
-            <li className="skill">React</li>
-            <li className="skill">Redux</li>
-            <li className="skill">Ruby</li>
-            <li className="skill">Ruby on Rails</li>
-            <li className="skill">SQL</li>
-            <li className="skill">Git</li>
-            <li className="skill">GitHub</li>
-            <li className="skill">Bootstrap</li>
-            <li className="skill">Postgresql</li>
-            <li className="skill">Webpack</li>
+            <h4>Programming Languages:</h4>
+            <section className="skill-group">
+              <li className="skill">HTML</li>
+              <li className="skill">CSS</li>
+              <li className="skill">JavaScript</li>
+              <li className="skill">Ruby</li>
+            </section>
+            <h4 className="move">Frameworks, Libraries & Tools:</h4>
+            <div className="skill-group">
+              <li className="skill">React</li>
+              <li className="skill">Redux</li>
+              <li className="skill">Ruby on Rails</li>
+              <li className="skill">SQL</li>
+              <li className="skill">Postgresql</li>
+              <li className="skill">Bootstrap</li>
+              <li className="skill">Webpack</li>
+            </div>
+            <h4 className="move">Version Control:</h4>
+            <div className="skill-group">
+              <li className="skill">Git</li>
+              <li className="skill">GitHub</li>
+            </div>
           </ul>
         </div>
       </div>

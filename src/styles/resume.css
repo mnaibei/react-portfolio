@@ -75,8 +75,24 @@
 .skills-list {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.skill-group {
+  display: flex;
   flex-wrap: wrap;
   gap: 5px;
+}
+
+h4 {
+  /* border: 2px solid; */
+  padding: 5px;
+}
+
+.move {
+  margin-top: 10px;
 }
 
 .skill {
