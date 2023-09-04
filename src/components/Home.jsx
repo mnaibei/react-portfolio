@@ -18,7 +18,10 @@ const Home = () => (
           I bring problem-solving prowess, effective time management, and teamwork to every project.
         </p>
       </span>
-      <a className="view-resume-button" href="/resume">View Resume</a>
+      <div className="home-buttons">
+        <a className="view-resume-button" href="/resume">View Resume</a>
+        <a className="view-resume-button" href="/contact">Contact Me</a>
+      </div>
     </div>
   </div>
 );

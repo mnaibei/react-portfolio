@@ -1,0 +1,41 @@
+/* ContactForm.css (or any appropriate CSS file) */
+form {
+  /* background-color: #ffffff; */
+  /* White background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  /* Light gray background */
+  color: #333;
+}
+
+/* Style the error messages */
+.ValidationError {
+  color: #ff0000;
+  /* Red color for error messages */
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Optional: Style the success message */
+.submission-success {
+  color: #008000;
+  /* Green color for success message */
+  font-weight: bold;
+  margin-top: 10px;
+}

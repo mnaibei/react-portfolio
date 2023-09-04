@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin-bottom: 60px; /* Add bottom margin for mobile view */
+  margin-bottom: 60px;
+  /* Add bottom margin for mobile view */
 }
 
 .home img {
@@ -23,7 +24,15 @@
 .home-content {
   max-width: 600px;
   margin: 0 auto;
-  text-align: center; /* Center align the content */
+  text-align: center;
+  /* Center align the content */
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .title {
@@ -39,7 +48,8 @@
 }
 
 .resume-container {
-  height: 200px; /* Adjust the height as needed */
+  height: 200px;
+  /* Adjust the height as needed */
   overflow: auto;
 }
 
@@ -67,7 +77,8 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin-bottom: 60px; /* Add bottom margin for mobile view */
+    margin-bottom: 60px;
+    /* Add bottom margin for mobile view */
     margin-top: 50px;
   }
 }
@@ -79,7 +90,8 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin-bottom: 60px; /* Add bottom margin for mobile view */
+    margin-bottom: 60px;
+    /* Add bottom margin for mobile view */
     margin-top: 120px;
   }
 }
