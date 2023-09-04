@@ -1,0 +1,25 @@
+.animated-text {
+  animation-name: slideIn;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+
+  /* Delay the animation if needed */
+  animation-fill-mode: forwards;
+
+  /* Keeps the last keyframe state after animation */
+  opacity: 0;
+
+  /* Start with opacity 0 */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

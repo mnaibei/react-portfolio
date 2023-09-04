@@ -1,11 +1,12 @@
 import avatar from '../images/avatar.png';
 import '../styles/home.css';
+import '../styles/animated-text.css';
 
 const Home = () => (
   <div className="home">
     <img src={avatar} alt={avatar} />
     <div className="home-content">
-      <h1 className="title">IT specialist, software engineer</h1>
+      <h1 className="title animated-text">IT specialist, software engineer</h1>
       <span className="about-me">
         <p>
           Hello, I am Mucha Naibei, an IT Specialist/Consultant with over six years of experience.
