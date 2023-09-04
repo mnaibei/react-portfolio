@@ -35,7 +35,7 @@ const Projects = () => (
               SwiftUI
             </p>
             <div className="project-links-container">
-              <a href="https://github.com/mnaibei/WeatherApp" className="project-link">
+              <a href="https://github.com/mnaibei/WeatherApp" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaGithub />
                 {' '}
                 View Code
@@ -62,7 +62,7 @@ const Projects = () => (
               SwiftUI
             </p>
             <div className="project-links-container">
-              <a href="https://github.com/mnaibei/Landmarks" className="project-link">
+              <a href="https://github.com/mnaibei/Landmarks" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaGithub />
                 {' '}
                 View Code
@@ -98,12 +98,12 @@ const Projects = () => (
               Redux
             </p>
             <div className="project-links-container">
-              <a href="https://github.com/mnaibei/react-capstone" className="project-link">
+              <a href="https://github.com/mnaibei/react-capstone" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaGithub />
                 {' '}
                 View Code
               </a>
-              <a href="https://cryptotracker-1qgb.onrender.com" className="project-link">
+              <a href="https://cryptotracker-1qgb.onrender.com" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaDesktop />
                 {' '}
                 Demo
@@ -132,12 +132,12 @@ const Projects = () => (
               ReactJS
             </p>
             <div className="project-links-container">
-              <a href="https://github.com/mnaibei/todo-list-react" className="project-link">
+              <a href="https://github.com/mnaibei/todo-list-react" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaGithub />
                 {' '}
                 View Code
               </a>
-              <a href="https://todo-list-app-457c.onrender.com" className="project-link">
+              <a href="https://todo-list-app-457c.onrender.com" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaDesktop />
                 {' '}
                 Demo
@@ -170,12 +170,12 @@ const Projects = () => (
               ReactJS
             </p>
             <div className="project-links-container">
-              <a href="https://github.com/mnaibei/mdawidahomestay" className="project-link">
+              <a href="https://github.com/mnaibei/mdawidahomestay" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaGithub />
                 {' '}
                 View Code
               </a>
-              <a href="https://mdawidahomestay.onrender.com/home" className="project-link">
+              <a href="https://mdawidahomestay.onrender.com/home" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaDesktop />
                 {' '}
                 Demo
@@ -210,12 +210,12 @@ const Projects = () => (
               CSS
             </p>
             <div className="project-links-container">
-              <a href="https://github.com/mnaibei/cinemaHub" className="project-link">
+              <a href="https://github.com/mnaibei/cinemaHub" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaGithub />
                 {' '}
                 View Code
               </a>
-              <a href="https://mnaibei.github.io/cinemaHub/dist/#home" className="project-link">
+              <a href="https://mnaibei.github.io/cinemaHub/dist/#home" target="_blank" rel="noopener noreferrer" className="project-link">
                 <FaDesktop />
                 {' '}
                 Demo
