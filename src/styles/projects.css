@@ -94,3 +94,21 @@
     justify-content: center;
   }
 }
+
+@media (min-width: 2560px) {
+  .project-details h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+
+  .project-details p {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .projects h1 {
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
+}

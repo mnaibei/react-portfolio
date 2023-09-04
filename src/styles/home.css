@@ -100,3 +100,19 @@
     margin-top: 120px;
   }
 }
+
+@media (min-width: 2560px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .about-me {
+    font-size: 40px;
+  }
+
+  .view-resume-button {
+    font-size: 40px;
+    width: 50%;
+    border: 2px solid #027cec;
+  }
+}

@@ -135,3 +135,29 @@ h4 {
     font-size: 14px;
   }
 }
+
+@media (min-width: 2560px) {
+  .resume-title {
+    font-size: 60px;
+  }
+
+  .experience h2,
+  .education h2 {
+    font-size: 44px;
+  }
+
+  .experience-link h3,
+  .education-link h3 {
+    font-size: 36px;
+  }
+
+  .experience-link p,
+  .education-link p {
+    font-size: 30px;
+  }
+
+  .experience-link ul li,
+  .education-link ul li {
+    font-size: 25px;
+  }
+}

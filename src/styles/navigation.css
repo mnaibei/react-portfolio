@@ -67,7 +67,7 @@
   background-color: #333;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .mobile-menu {
     display: none;
   }
@@ -81,5 +81,11 @@
   .mobile-menu {
     position: sticky;
     top: 0;
+  }
+}
+
+@media (min-width: 2560px) {
+  .navbar {
+    font-size: 45px;
   }
 }
