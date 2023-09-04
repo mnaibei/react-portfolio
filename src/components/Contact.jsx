@@ -1,5 +1,6 @@
 import '../styles/contact.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => (
   <div className="contact">
@@ -14,6 +15,10 @@ const Contact = () => (
         <a href="https://www.linkedin.com/in/mucha-julius/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon" />
         </a>
+        <a href="mailto:muchajulius@gmail.com" target="_blank" rel="noopener noreferrer">
+          <AiOutlineMail className="icon" />
+        </a>
+
       </div>
     </div>
   </div>
