@@ -8,8 +8,7 @@
 
   /* Keeps the last keyframe state after animation */
   opacity: 0;
-
-  /* Start with opacity 0 */
+  z-index: -1;
 }
 
 @keyframes slideIn {

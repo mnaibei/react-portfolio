@@ -17,7 +17,7 @@ const Projects = () => (
     <h1>Projects</h1>
     <ul className="project-links">
       <li>
-        <div className="project-item">
+        <div className="project-item animated-text animated-text">
           <img src={weather} alt={weather} className="project-image" />
           <div className="project-details">
             <h2>Weather App</h2>
@@ -45,7 +45,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item">
+        <div className="project-item animated-text">
           <img src={landmarks} alt={landmarks} className="project-image" />
           <div className="project-details">
             <h2>Landmarks App</h2>
@@ -72,7 +72,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item">
+        <div className="project-item animated-text">
           <img src={crypto} alt={crypto} className="project-image" />
           <div className="project-details">
             <h2>Cryptocurrency Mobile Web App</h2>
@@ -113,7 +113,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item">
+        <div className="project-item animated-text">
           <img src={todo} alt={todo} className="project-image" />
           <div className="project-details">
             <h2>Todo List Web App</h2>
@@ -147,7 +147,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item">
+        <div className="project-item animated-text">
           <img src={mdawida} alt={mdawida} className="project-image" />
           <div className="project-details">
             <h2>Mdawida Homestay Web App</h2>
@@ -185,7 +185,7 @@ const Projects = () => (
         </div>
       </li>
       <li>
-        <div className="project-item">
+        <div className="project-item animated-text">
           <img src={cinema} alt={cinema} className="project-image" />
           <div className="project-details">
             <h2>CinemaHub Web App</h2>
